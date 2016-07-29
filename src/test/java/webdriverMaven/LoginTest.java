@@ -26,7 +26,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//*[@id='login-signin']")).click();
 		driver.findElement(By.xpath("//*[@id='login-passwd']")).sendKeys("justin@123");
 		driver.findElement(By.xpath("//*[@id='login-signin']")).click();//new line added to click on the sigin button
-				
+		//ADDING COMMENTS IN LOGINTEST.JAVA FILE
 	}
 	
 	@AfterSuite
