@@ -24,7 +24,9 @@ public class GoogleTest {
 		Thread.sleep(2000);
 		driver.navigate().back();
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//*[@id='gbw']/div/div/div[1]/div[1]/a")).click();
+		//ADDING NEW COMMENTS AS TEST
 	}
 
 	@AfterSuite
